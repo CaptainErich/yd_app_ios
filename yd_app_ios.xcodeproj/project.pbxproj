@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C028E1D2840CA4200D4B3D5 /* YDHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C028E1C2840CA4200D4B3D5 /* YDHomeTableViewCell.swift */; };
+		1C4F3E51282CE35300562F01 /* YDApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F3E50282CE35300562F01 /* YDApi.swift */; };
+		1C4F3E53282D13D400562F01 /* YDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F3E52282D13D400562F01 /* YDModel.swift */; };
 		1C562D21282371C200AFE621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C562D20282371C200AFE621 /* AppDelegate.swift */; };
 		1C562D23282371C200AFE621 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C562D22282371C200AFE621 /* SceneDelegate.swift */; };
-		1C562D25282371C200AFE621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C562D24282371C200AFE621 /* ViewController.swift */; };
 		1C562D28282371C200AFE621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C562D26282371C200AFE621 /* Main.storyboard */; };
 		1C562D2A282371C300AFE621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C562D29282371C300AFE621 /* Assets.xcassets */; };
 		1C562D2D282371C300AFE621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C562D2B282371C300AFE621 /* LaunchScreen.storyboard */; };
 		1C562D38282371C400AFE621 /* yd_app_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C562D37282371C400AFE621 /* yd_app_iosTests.swift */; };
 		1C562D42282371C400AFE621 /* yd_app_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C562D41282371C400AFE621 /* yd_app_iosUITests.swift */; };
 		1C562D44282371C400AFE621 /* yd_app_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C562D43282371C400AFE621 /* yd_app_iosUITestsLaunchTests.swift */; };
+		1C562D512823E82B00AFE621 /* YDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C562D502823E82B00AFE621 /* YDTabBarController.swift */; };
+		1C562D532823E8DF00AFE621 /* YDHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C562D522823E8DF00AFE621 /* YDHomeViewController.swift */; };
+		1C562D562823E93300AFE621 /* YDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C562D552823E93300AFE621 /* YDBaseViewController.swift */; };
+		1C70F6A528253694001E3EF3 /* YDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70F6A428253694001E3EF3 /* YDNavigationController.swift */; };
+		1C70F6B028253701001E3EF3 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70F6A728253701001E3EF3 /* ArrayExtensions.swift */; };
+		1C70F6B128253701001E3EF3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70F6A828253701001E3EF3 /* UIColorExtension.swift */; };
+		1C70F6B228253701001E3EF3 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70F6A928253701001E3EF3 /* UIViewExtension.swift */; };
+		1C70F6B328253701001E3EF3 /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70F6AA28253701001E3EF3 /* UIBarButtonItemExtension.swift */; };
+		1C70F6B428253701001E3EF3 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70F6AB28253701001E3EF3 /* UIDeviceExtension.swift */; };
+		1C70F6B528253701001E3EF3 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70F6AC28253701001E3EF3 /* UIImageExtensions.swift */; };
+		1C70F6B628253701001E3EF3 /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70F6AD28253701001E3EF3 /* DispatchQueueExtension.swift */; };
+		1C70F6B728253701001E3EF3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70F6AE28253701001E3EF3 /* StringExtension.swift */; };
+		1C70F6B828253701001E3EF3 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70F6AF28253701001E3EF3 /* DictionaryExtension.swift */; };
+		1C70F6BC28254193001E3EF3 /* YDMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70F6BB28254193001E3EF3 /* YDMineViewController.swift */; };
+		1C9FDDC22833525A00EC22FE /* YDRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9FDDC12833525A00EC22FE /* YDRefresh.swift */; };
+		1CC054BA2836514100F02EC4 /* YDHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC054B92836514100F02EC4 /* YDHomePresenter.swift */; };
+		1CEC46AB282B6E180059030D /* YDGloble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC46AA282B6E180059030D /* YDGloble.swift */; };
+		BBB1CD38DB8C04B81B25C33B /* Pods_yd_app_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C417F0E38533326FB37A8D8 /* Pods_yd_app_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +56,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C028E1C2840CA4200D4B3D5 /* YDHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDHomeTableViewCell.swift; sourceTree = "<group>"; };
+		1C4F3E50282CE35300562F01 /* YDApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDApi.swift; sourceTree = "<group>"; };
+		1C4F3E52282D13D400562F01 /* YDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDModel.swift; sourceTree = "<group>"; };
 		1C562D1D282371C200AFE621 /* yd_app_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yd_app_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C562D20282371C200AFE621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C562D22282371C200AFE621 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C562D24282371C200AFE621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C562D27282371C200AFE621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C562D29282371C300AFE621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C562D2C282371C300AFE621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +71,26 @@
 		1C562D3D282371C400AFE621 /* yd_app_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yd_app_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C562D41282371C400AFE621 /* yd_app_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yd_app_iosUITests.swift; sourceTree = "<group>"; };
 		1C562D43282371C400AFE621 /* yd_app_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yd_app_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C562D502823E82B00AFE621 /* YDTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDTabBarController.swift; sourceTree = "<group>"; };
+		1C562D522823E8DF00AFE621 /* YDHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDHomeViewController.swift; sourceTree = "<group>"; };
+		1C562D552823E93300AFE621 /* YDBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDBaseViewController.swift; sourceTree = "<group>"; };
+		1C70F6A428253694001E3EF3 /* YDNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YDNavigationController.swift; sourceTree = "<group>"; };
+		1C70F6A728253701001E3EF3 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		1C70F6A828253701001E3EF3 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		1C70F6A928253701001E3EF3 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		1C70F6AA28253701001E3EF3 /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		1C70F6AB28253701001E3EF3 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		1C70F6AC28253701001E3EF3 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		1C70F6AD28253701001E3EF3 /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
+		1C70F6AE28253701001E3EF3 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		1C70F6AF28253701001E3EF3 /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		1C70F6BB28254193001E3EF3 /* YDMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDMineViewController.swift; sourceTree = "<group>"; };
+		1C9FDDC12833525A00EC22FE /* YDRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDRefresh.swift; sourceTree = "<group>"; };
+		1CC054B92836514100F02EC4 /* YDHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDHomePresenter.swift; sourceTree = "<group>"; };
+		1CEC46AA282B6E180059030D /* YDGloble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDGloble.swift; sourceTree = "<group>"; };
+		60310B5C231D50D27CF66890 /* Pods-yd_app_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yd_app_ios.release.xcconfig"; path = "Target Support Files/Pods-yd_app_ios/Pods-yd_app_ios.release.xcconfig"; sourceTree = "<group>"; };
+		68F344FBD6AB1F2C7E3E9AAD /* Pods-yd_app_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yd_app_ios.debug.xcconfig"; path = "Target Support Files/Pods-yd_app_ios/Pods-yd_app_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		9C417F0E38533326FB37A8D8 /* Pods_yd_app_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yd_app_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB1CD38DB8C04B81B25C33B /* Pods_yd_app_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4F3E4F282CE33A00562F01 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				1C4F3E50282CE35300562F01 /* YDApi.swift */,
+				1C4F3E52282D13D400562F01 /* YDModel.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		1C562D14282371C200AFE621 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				1C562D36282371C400AFE621 /* yd_app_iosTests */,
 				1C562D40282371C400AFE621 /* yd_app_iosUITests */,
 				1C562D1E282371C200AFE621 /* Products */,
+				B864821EF077DD9F820C59CA /* Pods */,
+				8042E1E6C8A82E3D7126AB5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +155,13 @@
 			children = (
 				1C562D20282371C200AFE621 /* AppDelegate.swift */,
 				1C562D22282371C200AFE621 /* SceneDelegate.swift */,
-				1C562D24282371C200AFE621 /* ViewController.swift */,
+				1C9FDDC02833520500EC22FE /* Refresh */,
+				1C4F3E4F282CE33A00562F01 /* Api */,
+				1CEC46A9282B6DE90059030D /* YDCommon */,
+				1C70F6B928254134001E3EF3 /* Home */,
+				1C70F6BA2825416C001E3EF3 /* Mine */,
+				1C70F6A628253701001E3EF3 /* Extension */,
+				1C562D542823E90B00AFE621 /* BaseVC */,
 				1C562D26282371C200AFE621 /* Main.storyboard */,
 				1C562D29282371C300AFE621 /* Assets.xcassets */,
 				1C562D2B282371C300AFE621 /* LaunchScreen.storyboard */,
@@ -127,6 +187,83 @@
 			path = yd_app_iosUITests;
 			sourceTree = "<group>";
 		};
+		1C562D542823E90B00AFE621 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				1C562D502823E82B00AFE621 /* YDTabBarController.swift */,
+				1C562D552823E93300AFE621 /* YDBaseViewController.swift */,
+				1C70F6A428253694001E3EF3 /* YDNavigationController.swift */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		1C70F6A628253701001E3EF3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C70F6A728253701001E3EF3 /* ArrayExtensions.swift */,
+				1C70F6A828253701001E3EF3 /* UIColorExtension.swift */,
+				1C70F6A928253701001E3EF3 /* UIViewExtension.swift */,
+				1C70F6AA28253701001E3EF3 /* UIBarButtonItemExtension.swift */,
+				1C70F6AB28253701001E3EF3 /* UIDeviceExtension.swift */,
+				1C70F6AC28253701001E3EF3 /* UIImageExtensions.swift */,
+				1C70F6AD28253701001E3EF3 /* DispatchQueueExtension.swift */,
+				1C70F6AE28253701001E3EF3 /* StringExtension.swift */,
+				1C70F6AF28253701001E3EF3 /* DictionaryExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1C70F6B928254134001E3EF3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1C562D522823E8DF00AFE621 /* YDHomeViewController.swift */,
+				1CC054B92836514100F02EC4 /* YDHomePresenter.swift */,
+				1C028E1C2840CA4200D4B3D5 /* YDHomeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1C70F6BA2825416C001E3EF3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1C70F6BB28254193001E3EF3 /* YDMineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		1C9FDDC02833520500EC22FE /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				1C9FDDC12833525A00EC22FE /* YDRefresh.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		1CEC46A9282B6DE90059030D /* YDCommon */ = {
+			isa = PBXGroup;
+			children = (
+				1CEC46AA282B6E180059030D /* YDGloble.swift */,
+			);
+			path = YDCommon;
+			sourceTree = "<group>";
+		};
+		8042E1E6C8A82E3D7126AB5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C417F0E38533326FB37A8D8 /* Pods_yd_app_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B864821EF077DD9F820C59CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68F344FBD6AB1F2C7E3E9AAD /* Pods-yd_app_ios.debug.xcconfig */,
+				60310B5C231D50D27CF66890 /* Pods-yd_app_ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C562D47282371C400AFE621 /* Build configuration list for PBXNativeTarget "yd_app_ios" */;
 			buildPhases = (
+				2118CD5DB49612C6A7A5E496 /* [CP] Check Pods Manifest.lock */,
 				1C562D19282371C200AFE621 /* Sources */,
 				1C562D1A282371C200AFE621 /* Frameworks */,
 				1C562D1B282371C200AFE621 /* Resources */,
+				B105BE841DA3FBAF111C5E7C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +392,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2118CD5DB49612C6A7A5E496 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yd_app_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B105BE841DA3FBAF111C5E7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yd_app_ios/Pods-yd_app_ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yd_app_ios/Pods-yd_app_ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yd_app_ios/Pods-yd_app_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C562D19282371C200AFE621 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C562D25282371C200AFE621 /* ViewController.swift in Sources */,
+				1C70F6B228253701001E3EF3 /* UIViewExtension.swift in Sources */,
+				1C562D532823E8DF00AFE621 /* YDHomeViewController.swift in Sources */,
+				1C70F6B728253701001E3EF3 /* StringExtension.swift in Sources */,
+				1C4F3E51282CE35300562F01 /* YDApi.swift in Sources */,
+				1C562D512823E82B00AFE621 /* YDTabBarController.swift in Sources */,
+				1C028E1D2840CA4200D4B3D5 /* YDHomeTableViewCell.swift in Sources */,
+				1C70F6A528253694001E3EF3 /* YDNavigationController.swift in Sources */,
+				1C4F3E53282D13D400562F01 /* YDModel.swift in Sources */,
+				1C70F6BC28254193001E3EF3 /* YDMineViewController.swift in Sources */,
+				1C70F6B628253701001E3EF3 /* DispatchQueueExtension.swift in Sources */,
+				1C70F6B828253701001E3EF3 /* DictionaryExtension.swift in Sources */,
+				1C70F6B528253701001E3EF3 /* UIImageExtensions.swift in Sources */,
 				1C562D21282371C200AFE621 /* AppDelegate.swift in Sources */,
+				1C70F6B128253701001E3EF3 /* UIColorExtension.swift in Sources */,
 				1C562D23282371C200AFE621 /* SceneDelegate.swift in Sources */,
+				1C562D562823E93300AFE621 /* YDBaseViewController.swift in Sources */,
+				1CEC46AB282B6E180059030D /* YDGloble.swift in Sources */,
+				1C70F6B428253701001E3EF3 /* UIDeviceExtension.swift in Sources */,
+				1C70F6B328253701001E3EF3 /* UIBarButtonItemExtension.swift in Sources */,
+				1C9FDDC22833525A00EC22FE /* YDRefresh.swift in Sources */,
+				1CC054BA2836514100F02EC4 /* YDHomePresenter.swift in Sources */,
+				1C70F6B028253701001E3EF3 /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +632,7 @@
 		};
 		1C562D48282371C400AFE621 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F344FBD6AB1F2C7E3E9AAD /* Pods-yd_app_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,11 +640,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = yd_app_ios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "新闻";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,12 +656,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1C562D49282371C400AFE621 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60310B5C231D50D27CF66890 /* Pods-yd_app_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,11 +670,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = yd_app_ios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "新闻";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +686,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

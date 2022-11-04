@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HandyJSON (5.0.2)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.9.5):
+    - SDWebImage/Core (= 5.9.5)
+  - SDWebImage/Core (5.9.5)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - HandyJSON
+  - MBProgressHUD
+  - MJRefresh
+  - Moya
+  - SDCycleScrollView
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - Result
+    - SDCycleScrollView
+    - SDWebImage
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 92bb355c3b6dd4f1a148e2767f27d52d945cd0b2
+
+COCOAPODS: 1.11.3

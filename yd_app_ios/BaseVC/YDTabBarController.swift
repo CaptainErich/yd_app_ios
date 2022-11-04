@@ -11,14 +11,17 @@ import UIKit
 class YDTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        UITabBar.appearance().backgroundColor = UIColor.white
+
         tabBar.isTranslucent = false
         let homeVc = YDHomeViewController()
         addChildViewController(homeVc, title: "首页", image: UIImage(named: "tab_home"), selectedImage: UIImage(named: "tab_home_S"))
         
-        
+        let mineVc = YDMineViewController()
+        addChildViewController(mineVc, title: "我的", image: UIImage(named: "tab_mine"), selectedImage: UIImage(named: "tab_mine_S"))
         
     }
+    
     func addChildViewController(_ childController: UIViewController, title:String?, image:UIImage? ,selectedImage:UIImage?) {
         childController.title = title
         childController.tabBarItem = UITabBarItem(title: nil, image: image?.withRenderingMode(.alwaysOriginal), selectedImage: selectedImage?.withRenderingMode(.alwaysOriginal))
