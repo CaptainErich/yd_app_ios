@@ -1,19 +1,16 @@
 //
-//  ViewController.swift
+//  HDBaseViewController.swift
 //  yd_app_ios
 //
 //  Created by 黑旭鹏 on 2022/5/5.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class YDBaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
     }
-
-
 }
-
